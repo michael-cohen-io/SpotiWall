@@ -1,0 +1,6 @@
+framework module Pods_SpotiWall {
+  umbrella header "Pods-SpotiWall-umbrella.h"
+
+  export *
+  module * { export * }
+}

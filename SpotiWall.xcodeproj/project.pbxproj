@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C809D251CE42ADF00EDBF13 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C809D241CE42ADF00EDBF13 /* Song.swift */; };
+		4C809D271CE42AE700EDBF13 /* ImageApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C809D261CE42AE700EDBF13 /* ImageApiRequest.swift */; };
+		4C809D291CE42B3300EDBF13 /* ScriptLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C809D281CE42B3300EDBF13 /* ScriptLoader.swift */; };
+		4C809D2C1CE42B4A00EDBF13 /* get_background.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 4C809D2A1CE42B4A00EDBF13 /* get_background.applescript */; };
+		4C809D2D1CE42B4A00EDBF13 /* get_spotify_data.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 4C809D2B1CE42B4A00EDBF13 /* get_spotify_data.applescript */; };
+		4C809D2E1CE42C3100EDBF13 /* get_background.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 4C809D2A1CE42B4A00EDBF13 /* get_background.applescript */; };
+		4C809D2F1CE42C3100EDBF13 /* get_spotify_data.applescript in Resources */ = {isa = PBXBuildFile; fileRef = 4C809D2B1CE42B4A00EDBF13 /* get_spotify_data.applescript */; };
 		4CB29A431CE42886003B8EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB29A421CE42886003B8EB3 /* AppDelegate.swift */; };
 		4CB29A451CE42886003B8EB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB29A441CE42886003B8EB3 /* ViewController.swift */; };
 		4CB29A471CE42886003B8EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB29A461CE42886003B8EB3 /* Assets.xcassets */; };
 		4CB29A4A1CE42886003B8EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB29A481CE42886003B8EB3 /* Main.storyboard */; };
 		4CB29A551CE42886003B8EB3 /* SpotiWallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB29A541CE42886003B8EB3 /* SpotiWallTests.swift */; };
 		4CB29A601CE42886003B8EB3 /* SpotiWallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB29A5F1CE42886003B8EB3 /* SpotiWallUITests.swift */; };
+		D75800F6FBA6597E43F49A4C /* Pods_SpotiWall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC5B6C4D980118CD5D06DE /* Pods_SpotiWall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C809D241CE42ADF00EDBF13 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		4C809D261CE42AE700EDBF13 /* ImageApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageApiRequest.swift; sourceTree = "<group>"; };
+		4C809D281CE42B3300EDBF13 /* ScriptLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptLoader.swift; sourceTree = "<group>"; };
+		4C809D2A1CE42B4A00EDBF13 /* get_background.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = get_background.applescript; sourceTree = "<group>"; };
+		4C809D2B1CE42B4A00EDBF13 /* get_spotify_data.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = get_spotify_data.applescript; sourceTree = "<group>"; };
 		4CB29A3F1CE42886003B8EB3 /* SpotiWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotiWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB29A421CE42886003B8EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CB29A441CE42886003B8EB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +58,9 @@
 		4CB29A5B1CE42886003B8EB3 /* SpotiWallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotiWallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB29A5F1CE42886003B8EB3 /* SpotiWallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotiWallUITests.swift; sourceTree = "<group>"; };
 		4CB29A611CE42886003B8EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82C76127EE95FD076EF5BF1 /* Pods-SpotiWall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotiWall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotiWall/Pods-SpotiWall.debug.xcconfig"; sourceTree = "<group>"; };
+		EB7B6FB33A6A2E69A657B7EB /* Pods-SpotiWall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotiWall.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotiWall/Pods-SpotiWall.release.xcconfig"; sourceTree = "<group>"; };
+		FAEC5B6C4D980118CD5D06DE /* Pods_SpotiWall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotiWall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75800F6FBA6597E43F49A4C /* Pods_SpotiWall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C809D221CE42ABB00EDBF13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C809D241CE42ADF00EDBF13 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C809D231CE42AC200EDBF13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C809D281CE42B3300EDBF13 /* ScriptLoader.swift */,
+				4CB29A441CE42886003B8EB3 /* ViewController.swift */,
+				4CB29A421CE42886003B8EB3 /* AppDelegate.swift */,
+				4C809D261CE42AE700EDBF13 /* ImageApiRequest.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		4CB29A361CE42886003B8EB3 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +115,8 @@
 				4CB29A531CE42886003B8EB3 /* SpotiWallTests */,
 				4CB29A5E1CE42886003B8EB3 /* SpotiWallUITests */,
 				4CB29A401CE42886003B8EB3 /* Products */,
+				D6D49F3A4C53867202171598 /* Pods */,
+				C72E235D703085303584C1EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +133,10 @@
 		4CB29A411CE42886003B8EB3 /* SpotiWall */ = {
 			isa = PBXGroup;
 			children = (
-				4CB29A421CE42886003B8EB3 /* AppDelegate.swift */,
-				4CB29A441CE42886003B8EB3 /* ViewController.swift */,
+				4C809D2A1CE42B4A00EDBF13 /* get_background.applescript */,
+				4C809D2B1CE42B4A00EDBF13 /* get_spotify_data.applescript */,
+				4C809D231CE42AC200EDBF13 /* Controller */,
+				4C809D221CE42ABB00EDBF13 /* Model */,
 				4CB29A461CE42886003B8EB3 /* Assets.xcassets */,
 				4CB29A481CE42886003B8EB3 /* Main.storyboard */,
 				4CB29A4B1CE42886003B8EB3 /* Info.plist */,
@@ -122,6 +162,23 @@
 			path = SpotiWallUITests;
 			sourceTree = "<group>";
 		};
+		C72E235D703085303584C1EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC5B6C4D980118CD5D06DE /* Pods_SpotiWall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6D49F3A4C53867202171598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C82C76127EE95FD076EF5BF1 /* Pods-SpotiWall.debug.xcconfig */,
+				EB7B6FB33A6A2E69A657B7EB /* Pods-SpotiWall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CB29A641CE42886003B8EB3 /* Build configuration list for PBXNativeTarget "SpotiWall" */;
 			buildPhases = (
+				DB39D1A12D45D2A045CDFA0C /* 📦 Check Pods Manifest.lock */,
 				4CB29A3B1CE42886003B8EB3 /* Sources */,
 				4CB29A3C1CE42886003B8EB3 /* Frameworks */,
 				4CB29A3D1CE42886003B8EB3 /* Resources */,
+				CB1F96156806E3A637903FCF /* 📦 Embed Pods Frameworks */,
+				694EC150A2177C7847D8485E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +286,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C809D2E1CE42C3100EDBF13 /* get_background.applescript in Resources */,
+				4C809D2F1CE42C3100EDBF13 /* get_spotify_data.applescript in Resources */,
 				4CB29A471CE42886003B8EB3 /* Assets.xcassets in Resources */,
 				4CB29A4A1CE42886003B8EB3 /* Main.storyboard in Resources */,
 			);
@@ -247,13 +309,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		694EC150A2177C7847D8485E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotiWall/Pods-SpotiWall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB1F96156806E3A637903FCF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotiWall/Pods-SpotiWall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB39D1A12D45D2A045CDFA0C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CB29A3B1CE42886003B8EB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C809D251CE42ADF00EDBF13 /* Song.swift in Sources */,
 				4CB29A451CE42886003B8EB3 /* ViewController.swift in Sources */,
+				4C809D2D1CE42B4A00EDBF13 /* get_spotify_data.applescript in Sources */,
+				4C809D2C1CE42B4A00EDBF13 /* get_background.applescript in Sources */,
+				4C809D271CE42AE700EDBF13 /* ImageApiRequest.swift in Sources */,
 				4CB29A431CE42886003B8EB3 /* AppDelegate.swift in Sources */,
+				4C809D291CE42B3300EDBF13 /* ScriptLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +499,7 @@
 		};
 		4CB29A651CE42886003B8EB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82C76127EE95FD076EF5BF1 /* Pods-SpotiWall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -396,6 +512,7 @@
 		};
 		4CB29A661CE42886003B8EB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB7B6FB33A6A2E69A657B7EB /* Pods-SpotiWall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -475,6 +592,7 @@
 				4CB29A661CE42886003B8EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CB29A671CE42886003B8EB3 /* Build configuration list for PBXNativeTarget "SpotiWallTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +601,7 @@
 				4CB29A691CE42886003B8EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CB29A6A1CE42886003B8EB3 /* Build configuration list for PBXNativeTarget "SpotiWallUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +610,7 @@
 				4CB29A6C1CE42886003B8EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
